@@ -5,7 +5,7 @@
 A resume tells you what someone *claims* to know—not how well they actually know it. This project is a dual-portal AI agent designed to take a Job Description and a candidate's resume, conversationally assess real proficiency through scenario-based questioning, and generate a personalized learning plan complete with curated resources and time estimates.
 
 ---
-[Deployed: ](https://ai-skillassessmentdeccanai-ikujufkdfupjjfzhwwfor3.streamlit.app/)
+[![Website](https://img.shields.io/badge/Website-Visit%20Site-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ai-skillassessmentdeccanai-ikujufkdfupjjfzhwwfor3.streamlit.app/)
 ---
 
 ## ✨ Key Features
