@@ -106,3 +106,19 @@ The agent operates via a three-phase logic:
 ---
 
 Developed by **[Somesh Padiyar]**
+
+---
+![Step 1](Demo_ss/01.png)
+---
+![Step 2](Demo_ss/02.png)
+---
+![Step 3](Demo_ss/03.png)
+---
+![Step 4](Demo_ss/04.png)
+---
+![Step 5](Demo_ss/05.png)
+---
+![Step 6](Demo_ss/06.png)
+---
+![Step 7](Demo_ss/07.png)
+---
