@@ -67,3 +67,42 @@ venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+```
+
+### 3. Environment Setup
+Create a file named .env in the root directory and add your key:
+
+```text
+GOOGLE_API_KEY="your_actual_api_key_here"
+```
+
+### 4. Launch
+```bash
+streamlit run app.py
+```
+---
+
+### ☁️ Deployment (Streamlit Cloud)
+* Push the code to your GitHub (ensure .env and venv/ are ignored).
+
+* Connect the repo to Streamlit Community Cloud.
+
+* In Advanced Settings > Secrets, add:
+
+```text
+GOOGLE_API_KEY = "your_actual_api_key_here"
+```
+---
+
+### 📝 Assessment Methodology
+The agent operates via a three-phase logic:
+
+* **Extraction:** It compares the Resume against the Job Description to identify specific "Skills to Test."
+
+* **Conversation:** It asks one scenario-based question at a time, resetting the live timer for each turn.
+
+* **Grading:** The final reporter analyzes the transcript. If the backend flagged a "Timed Out" response, points are deducted from the proficiency score, and a learning resource is suggested to bridge that specific gap.
+
+---
+
+Developed by **[Somesh Padiyar]**
