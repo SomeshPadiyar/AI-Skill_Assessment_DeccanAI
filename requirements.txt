@@ -1,7 +1,7 @@
 streamlit
 langchain
 langchain-community
-langchain-core
 langchain-google-genai
+google-api-core
 pypdf
 python-dotenv
